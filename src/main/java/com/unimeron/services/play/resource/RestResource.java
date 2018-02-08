@@ -13,6 +13,6 @@ public class RestResource {
     @Produces(MediaType.APPLICATION_JSON)
     @Path( "hello")
     public String hello() {
-        return new Date() + " Greetings from Spring Boot";
+        return new Date() + " Greetings from Spring Boot RestResource deployed as a web archive";
     }
 }
